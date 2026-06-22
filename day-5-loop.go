@@ -16,4 +16,14 @@ func main() {
 		}
 		fmt.Println(i)
 	}
+
+	// The break statement is used to break/terminate the loop execution.
+
+	for p := 0; p < 5; p++ {
+		if p == 3 {
+			break
+		}
+		fmt.Println(p)
+	}
+
 }
