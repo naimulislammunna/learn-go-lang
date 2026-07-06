@@ -36,4 +36,12 @@ func main() {
 		}
 	}
 
+	// This example uses range to iterate over an array and print both the indexes
+	//  and the values at each (idx stores the index, val stores the value
+
+	fruit := [3]string{"apple", "orange", "banana"}
+	for idx, val := range fruit {
+		fmt.Printf("%v\t%v\n", idx, val)
+	}
+
 }
