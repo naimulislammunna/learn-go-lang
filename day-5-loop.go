@@ -44,4 +44,11 @@ func main() {
 		fmt.Printf("%v\t%v\n", idx, val)
 	}
 
+	// Here,
+	// we want to omit the indexes (idx stores the index, val stores the value)
+	fru := [3]string{"apple", "orange", "banana"}
+	for _, val := range fru {
+		fmt.Printf("%v\n", val)
+	}
+
 }
